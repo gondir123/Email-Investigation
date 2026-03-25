@@ -55,7 +55,7 @@ To perform a forensic triage of a reported suspicious email, identify Indicators
 
 
 
-![Email Header Analysis](https://user-images.githubusercontent.com/12345678/123456789-email-header-analysis.png)
+![Email Header Analysis]()
 
 
 ![Email Header Analysis](https://github.com/user-attachments/assets/c6c2f574-4d68-4f7d-96b0-5b5772a0fb90)

@@ -129,17 +129,15 @@ To perform a forensic triage of a reported suspicious email, identify Indicators
 ![VirusTotal Analysis](https://github.com/user-attachments/assets/12339404-e4ae-4df4-a06d-37ccfb538df7)
 
 
-### 4.  Verify Authentication & Infrastructure
+### 5.  Evaluate Security Triage Scores
 
-- **Objective**: Validate the sender's authority and identify the infrastructure owner.
+- **Objective**: Analyze how automated enterprise filters categorized the threat.
+
+- **Tools Used**: Microsoft Exchange Header Analysis.
+
+- **Action**:Inspected the SCL (Spam Confidence Level) and BCL (Bulk Complaint Level) values within the metadata.
   
-- **Tools Used**: MXToolbox, DomainTools (WHOIS).
-
-- **Action**: Performed an SPF record check via MXToolbox and a WHOIS lookup to identify the server provider.
-  
-- **Outcome**: Confirmed an SPF FAIL and traced the infrastructure to 54upr.rosreestr.ru in Russia, proving the email was a spoofed phishing attempt.
-
-
+- **Outcome**: Verified an SCL of 5, confirming the message was correctly identified as high-risk spam by the organization's security controls.
 
 
 

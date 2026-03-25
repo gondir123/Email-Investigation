@@ -80,15 +80,15 @@ To perform a forensic triage of a reported suspicious email, identify Indicators
 
 
 
-### 3. Perform IP Address Lookup
+### 3. Defang & Investigate IOCs
 
-- **Objective**: Identify the owner of the IP address and gather more details.
+- **Objective**: Safely document Indicators of Compromise (IOCs) and research their global reputation.
+- 
+- **Tools Used**: CyberChef, Cisco Talos Intelligence, VirusTotal.
 
-- **Tools Used**: Cisco Talos Intelligence, DomainTools.
+- **Action**: Used CyberChef to "defang" the IP 109.202.24.52 and the Reply-To email address, then queried them against threat databases.
 
-- **Action**: Looked up the IP address `204.93.183.11` using Cisco Talos Intelligence and DomainTools WHOIS Lookup.
-
-- **Outcome**: Determined that the IP address belonged to `scnet.net`, associated with `Complete Web Reviews`.
+- **Outcome**: Confirmed the IP has a "Poor" reputation and is flagged by security vendors for unauthorized spam activity.
 
 
 

@@ -109,15 +109,16 @@ To perform a forensic triage of a reported suspicious email, identify Indicators
 
 
 
-### 4. Analyze Suspicious Attachments
+### 4.  Verify Authentication & Infrastructure
 
-- **Objective**: Identify and understand the nature of attachments associated with the suspicious emails.
+- **Objective**: Validate the sender's authority and identify the infrastructure owner.
+  
+- **Tools Used**: MXToolbox, DomainTools (WHOIS).
 
-- **Tools Used**: Mozilla Thunderbird, VirusTotal.
+- **Action**: Performed an SPF record check via MXToolbox and a WHOIS lookup to identify the server provider.
+  
+- **Outcome**: Confirmed an SPF FAIL and traced the infrastructure to 54upr.rosreestr.ru in Russia, proving the email was a spoofed phishing attempt.
 
-- **Action**: Downloaded and analyzed the attachments from `Email3.eml`, specifically `Sales_Receipt 5606.xls`, using VirusTotal.
-
-- **Outcome**: Identified the malware associated with the attachment as **Dridex**.
 
 
 
@@ -126,6 +127,22 @@ To perform a forensic triage of a reported suspicious email, identify Indicators
 
 
 ![VirusTotal Analysis](https://github.com/user-attachments/assets/12339404-e4ae-4df4-a06d-37ccfb538df7)
+
+
+### 4.  Verify Authentication & Infrastructure
+
+- **Objective**: Validate the sender's authority and identify the infrastructure owner.
+  
+- **Tools Used**: MXToolbox, DomainTools (WHOIS).
+
+- **Action**: Performed an SPF record check via MXToolbox and a WHOIS lookup to identify the server provider.
+  
+- **Outcome**: Confirmed an SPF FAIL and traced the infrastructure to 54upr.rosreestr.ru in Russia, proving the email was a spoofed phishing attempt.
+
+
+
+
+
 
 
 

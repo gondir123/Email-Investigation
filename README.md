@@ -21,8 +21,6 @@ To perform a forensic triage of a reported suspicious email, identify Indicators
 
 - WHOIS Lookup for IP Address Investigation
 
-- Understanding of Cisco Talos Intelligence
-
 
 
 ## Tools Used

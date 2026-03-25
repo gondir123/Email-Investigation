@@ -60,17 +60,16 @@ To perform a forensic triage of a reported suspicious email, identify Indicators
 
 ![Email Header Analysis](https://github.com/user-attachments/assets/c6c2f574-4d68-4f7d-96b0-5b5772a0fb90)
 
-### 2. Defang IP Addresses
+### 2. De-obfuscate & Decode Content
 
 
-- **Objective**: Make the IP addresses safe to share and analyze.
+- **Objective**: Convert encoded data into human-readable text to identify the threat.
 
 - **Tools Used**: CyberChef.
 
-- **Action**: Used CyberChef to defang the IP address `204.93.183.11` from the email headers.
+- **Action**: Applied "From Quoted-Printable" and "Base64" recipes to the email body and suspicious header strings.
 
-- **Outcome**: IP address was successfully defanged for further analysis.
-
+- **Outcome**: Successfully revealed the "Diplomatic Agent" scam script claiming a $10.5M delivery and identified encrypted Microsoft security blobs.
 
 
 

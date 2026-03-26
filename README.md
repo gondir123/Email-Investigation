@@ -88,19 +88,17 @@ To perform a forensic triage of a reported suspicious email, identify Indicators
 
 
 
-
-
-
-### 4.  Verify Authentication & Infrastructure
+### 4. Verify Authentication & Infrastructure
 
 - **Objective**: Validate the sender's authority and identify the infrastructure owner.
   
-- **Tools Used**: MXToolbox, DomainTools (WHOIS).
-
-- **Action**: Performed an SPF record check via MXToolbox and a WHOIS lookup to identify the server provider.
+- **Tools Used**: MXToolbox, Kali Terminal (WHOIS).
   
-- **Outcome**: Confirmed an SPF FAIL and traced the infrastructure to 54upr.rosreestr.ru in Russia, proving the email was a spoofed phishing attempt.
+- **Action**: Performed an SPF record check on `postfiji.com.fj` and a WHOIS lookup on the originating IP `109.202.24.52`.
+  
+- **Outcome**: Confirmed an **SPF FAIL**, proving the IP was not authorized. Traced the server to a Russian network (`rosreestr.ru`), contradicting the sender's claim of being a Fiji-based agent.
 
+![WHOIS Infrastructure Trace](YOUR_GITHUB_URL_HERE)
 
 
 

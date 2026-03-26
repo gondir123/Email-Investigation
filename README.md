@@ -70,17 +70,17 @@ To perform a forensic triage of a reported suspicious email, identify Indicators
 ![CyberChef Decoding Process](https://github.com/gondir123/Email-Investigation/blob/main/Screenshot_2026-03-25_15_39_51.png)
 
 
-
 ### 3. Defang & Investigate IOCs
 
 - **Objective**: Safely document Indicators of Compromise (IOCs) and research their global reputation.
-- 
+  
 - **Tools Used**: CyberChef, Cisco Talos Intelligence, VirusTotal.
+  
+- **Action**: Utilized CyberChef to defang `109.202.24.52` and cross-referenced it against threat intelligence databases.
+  
+- **Outcome**: Confirmed the IP has a "Poor" reputation and is flagged by multiple security vendors for unauthorized spam activity.
 
-- **Action**: Used CyberChef to "defang" the IP 109.202.24.52 and the Reply-To email address, then queried them against threat databases.
-
-- **Outcome**: Confirmed the IP has a "Poor" reputation and is flagged by security vendors for unauthorized spam activity.
-
+![IP Reputation Check](YOUR_GITHUB_URL_HERE)
 
 
 

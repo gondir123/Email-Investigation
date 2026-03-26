@@ -66,7 +66,7 @@ To perform a forensic triage of a reported suspicious email, identify Indicators
   
 - **Outcome**: Successfully revealed the full "Diplomatic Agent" scam script, which claimed a $10.5M USD consignment was waiting at the airport, intended to bait the victim into providing personal address and phone details.
 
-![CyberChef Decoding Process](https://github.com/gondir123/Email-Investigation/blob/main/Screenshot_2026-03-25_15_39_51.png)
+![CyberChef Decoding Process](https://github.com/gondir123/Email-Investigation/blob/main/Evidence/Screenshot_2026-03-25_15_39_51.png)
 
 
 ### 3. Defang & Investigate IOCs

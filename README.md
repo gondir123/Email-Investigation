@@ -98,7 +98,7 @@ To perform a forensic triage of a reported suspicious email, identify Indicators
 - **Outcome**: Confirmed an **SPF FAIL**, proving the IP was not authorized. Traced the server to a Russian network (`rosreestr.ru`), contradicting the sender's claim of being a Fiji-based agent.
 
 ![MXTOOLBOX Analysis](https://github.com/gondir123/Email-Investigation/blob/main/Evidence/Screenshot_2026-03-26_15_17_19.png)
-![WHOIS LOOKUP](https://github.com/gondir123/Email-Investigation/blob/main/Screenshot_2026-03-26_15_47_00.png)
+![WHOIS LOOKUP](https://github.com/gondir123/Email-Investigation/blob/main/Evidence/Screenshot_2026-03-26_15_47_00.png)
 
 
 ### 5. Evaluate Security Triage Scores

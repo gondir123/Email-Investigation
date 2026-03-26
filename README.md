@@ -114,7 +114,7 @@ To perform a forensic triage of a reported suspicious email, identify Indicators
     - **BCL 9**: Confirmed the originating Russian IP has a history of high-volume bulk/scam distribution.
     - **Final Triage**: Classified as a **Malicious Phishing Attempt (Financial Fraud)**.
 
-![Security Triage Metadata](https://github.com/gondir123/Email-Investigation/blob/main/Screenshot_2026-03-26_15_50_45.png)
+![Security Triage Metadata](https://github.com/gondir123/Email-Investigation/blob/main/Evidence/Screenshot_2026-03-26_15_50_45.png)
 
  
 
@@ -122,8 +122,8 @@ To perform a forensic triage of a reported suspicious email, identify Indicators
 
 - **sample-1006.eml**: Phishing attempt posing as a "Diplomatic Agent" from Post Fiji, originating from the Russian IP 109[.]202[.]24[.]52.
 
--  **X-Sender-IP**: Authenticated as an SPF FAIL, confirming the domain was spoofed to bypass trust filters.
--  
+- **X-Sender-IP**: Authenticated as an SPF FAIL, confirming the domain was spoofed to bypass trust filters.
+  
 - **Message Body**: De-obfuscated content revealed an Advance Fee Fraud (419 scam) aiming to harvest PII (Personal Identifiable Information).
 
 This investigation showcases the importance of thorough email analysis in identifying potential threats and protecting the organization's security posture. By following structured analysis steps and leveraging various tools like CyberChef, WHOIS, and MXToolbox, it was possible to uncover the malicious intent behind this email and respond accordingly.

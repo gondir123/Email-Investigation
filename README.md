@@ -52,7 +52,7 @@ To perform a forensic triage of a reported suspicious email, identify Indicators
 - **Outcome**: Identified the true originating IP address as 109.202.24.52 and noted a geographic mismatch between the sender's claim and the Russian server location.
 
 
-![Email Header Analysis](https://github.com/gondir123/Email-Investigation/blob/main/Screenshot_2026-03-25_01_23_46.png)
+![Email Header Analysis](https://github.com/gondir123/Email-Investigation/blob/main/Evidence/Screenshot_2026-03-25_01_23_46.png)
 
 
 

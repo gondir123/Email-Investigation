@@ -74,7 +74,7 @@ To perform a forensic triage of a reported suspicious email, identify Indicators
 
 - **Objective**: Safely document Indicators of Compromise (IOCs) and research their global reputation.
   
-- **Tools Used**: CyberChef, Cisco Talos Intelligence, VirusTotal.
+- **Tools Used**: CyberChef, VirusTotal.
   
 - **Action**: Utilized CyberChef to defang `109.202.24.52` and cross-referenced it against threat intelligence databases.
   
@@ -84,19 +84,7 @@ To perform a forensic triage of a reported suspicious email, identify Indicators
 
 ![CYBERCHEF Lookup](https://github.com/gondir123/Email-Investigation/blob/main/Screenshot_2026-03-26_14_33_00.png)
 
-
-
-
-![Cisco Talos Lookup](https://user-images.githubusercontent.com/12345678/123456789-cisco-talos.png)
-
-
-![DomainTools WHOIS Lookup](https://user-images.githubusercontent.com/12345678/123456789-domaintools-whois.png)
-
-
-![Cisco Talos Lookup](https://github.com/user-attachments/assets/e4d0b246-13c2-461f-a842-4a24b59bc235)
-
-
-![DomainTools WHOIS Lookup](https://github.com/user-attachments/assets/ead5ed12-706e-4b8f-91ac-587c7af154ac)
+![Virus Total Lookup](https://github.com/gondir123/Email-Investigation/blob/main/Screenshot_2026-03-26_15_05_07.png)
 
 
 

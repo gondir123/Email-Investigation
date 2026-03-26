@@ -100,13 +100,8 @@ To perform a forensic triage of a reported suspicious email, identify Indicators
 
 ![MXTOOLBOX Analysis](https://github.com/gondir123/Email-Investigation/blob/main/Screenshot_2026-03-26_15_17_19.png)
 
+![WHOIS LOOKUP](https://github.com/gondir123/Email-Investigation/blob/main/Screenshot_2026-03-26_15_47_00.png)
 
-
-
-![VirusTotal Analysis](https://user-images.githubusercontent.com/12345678/123456789-virustotal.png)
-
-
-![VirusTotal Analysis](https://github.com/user-attachments/assets/12339404-e4ae-4df4-a06d-37ccfb538df7)
 
 
 ### 5.  Evaluate Security Triage Scores

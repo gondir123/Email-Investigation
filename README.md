@@ -53,12 +53,9 @@ To perform a forensic triage of a reported suspicious email, identify Indicators
 
 
 
-
-
 ![Email Header Analysis](https://github.com/gondir123/Email-Investigation/blob/main/Screenshot_2026-03-25_01_23_46.png)
 
 
-![Email Header Analysis](https://github.com/user-attachments/assets/c6c2f574-4d68-4f7d-96b0-5b5772a0fb90)
 
 ### 2. De-obfuscate & Decode Content
 

@@ -81,7 +81,7 @@ To perform a forensic triage of a reported suspicious email, identify Indicators
 
 ![CYBERCHEF Lookup](https://github.com/gondir123/Email-Investigation/blob/main/Evidence/Screenshot_2026-03-26_14_16_00.png)
 
-![CYBERCHEF Lookup](https://github.com/gondir123/Email-Investigation/blob/main/Screenshot_2026-03-26_14_33_00.png)
+![CYBERCHEF Lookup](https://github.com/gondir123/Email-Investigation/blob/main/Evidence/Screenshot_2026-03-26_14_33_00.png)
 
 ![Virus Total Lookup](https://github.com/gondir123/Email-Investigation/blob/main/Screenshot_2026-03-26_15_05_07.png)
 

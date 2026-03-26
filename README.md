@@ -80,7 +80,7 @@ To perform a forensic triage of a reported suspicious email, identify Indicators
   
 - **Outcome**: Confirmed the IP has a "Poor" reputation and is flagged by multiple security vendors for unauthorized spam activity.
 
-![IP Reputation Check](YOUR_GITHUB_URL_HERE)
+![CYBERCHEF Lookup](https://github.com/gondir123/Email-Investigation/blob/main/Screenshot_2026-03-26_14_16_00.png)
 
 
 

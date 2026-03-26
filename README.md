@@ -59,15 +59,15 @@ To perform a forensic triage of a reported suspicious email, identify Indicators
 
 ### 2. De-obfuscate & Decode Content
 
-
-- **Objective**: Convert encoded data into human-readable text to identify the threat.
-
+- **Objective**: Convert encoded data into human-readable text to identify the hidden threat.
+  
 - **Tools Used**: CyberChef.
+  
+- **Action**: Identified that the email body utilized `Content-Transfer-Encoding: quoted-printable`. Extracted the raw body and applied the **"From Quoted Printable"** recipe in CyberChef.
+  
+- **Outcome**: Successfully revealed the full "Diplomatic Agent" scam script, which claimed a $10.5M USD consignment was waiting at the airport, intended to bait the victim into providing personal address and phone details.
 
-- **Action**: Applied "From Quoted-Printable" and "Base64" recipes to the email body and suspicious header strings.
-
-- **Outcome**: Successfully revealed the "Diplomatic Agent" scam script claiming a $10.5M delivery and identified encrypted Microsoft security blobs.
-
+![CyberChef Decoding Process](YOUR_GITHUB_URL_HERE)
 
 
 ![CyberChef Defanging](https://user-images.githubusercontent.com/12345678/123456789-cyberchef-defang.png)

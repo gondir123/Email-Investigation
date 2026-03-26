@@ -114,6 +114,9 @@ To perform a forensic triage of a reported suspicious email, identify Indicators
   
 - **Outcome**: Verified an SCL of 5, confirming the message was correctly identified as high-risk spam by the organization's security controls.
 
+  ![Microsoft Exchange Header Analysis](https://github.com/gondir123/Email-Investigation/blob/main/Screenshot_2026-03-26_15_50_45.png)
+
+ 
 
 
 
